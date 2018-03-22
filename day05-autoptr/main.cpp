@@ -39,7 +39,7 @@ int main()
     Test* t=new Test(10);
     shared_ptr<Test> share(t);
     cout<<share.use_count()<<endl;
-    unique_ptr
+    unique_ptr=nullptr;
     cout<<share.use_count()<<endl;
     return 0;
 }
